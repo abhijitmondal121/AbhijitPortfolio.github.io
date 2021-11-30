@@ -20,13 +20,13 @@ html{scroll-behavior: smooth;}
     width: 100%;
     z-index: 999;
     padding: 30px 0;
-    /* background: crimson; */
+    /* background: rgb(151, 0, 211); */
     font-family: 'Ubuntu',sans-serif;
     transition: color 0.3s ease;
 }
 .navbar.sticky{
     padding: 15px 0;
-    background: crimson;
+    background: rgb(151, 0, 211);
 }
 .navbar .max-width{
     display: flex;
@@ -39,7 +39,7 @@ html{scroll-behavior: smooth;}
     font-weight: 600;
 }
 .navbar .logo a span{
-    color: crimson;
+    color: rgb(151, 0, 211);
     transition: color 0.3s ease;
 }    
 .navbar.sticky .logo a span{
@@ -58,7 +58,7 @@ html{scroll-behavior: smooth;}
     transition: color 0.3s ease;
 }  
 .navbar .menu li a:hover{
-    color: crimson;
+    color: rgb(151, 0, 211);
 } 
 
 .navbar.sticky .menu li a:hover{
@@ -75,7 +75,7 @@ html{scroll-behavior: smooth;}
     position: fixed;
     height: 45px;
     width: 47px;
-    background: crimson;
+    background: rgb(151, 0, 211);
     right: 30px;
     bottom: 10px;
     text-align: center;
@@ -130,23 +130,23 @@ html{scroll-behavior: smooth;}
     margin: 5px 0;
 }
 .home .home-content .text-3 span{
-    color: crimson;
+    color: rgb(151, 0, 211);
     font-weight: 500;
 }
 .home .home-content a{
     display: inline-block;
-    background: crimson;
+    background: rgb(151, 0, 211);
     color: #fff;
     font-size: 25px;
     padding: 12px 36px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(151, 0, 211);
     transition: color 0.3s ease;
 }
 
 .home .home-content a:hover{
-    color: crimson;
+    color: rgb(151, 0, 211);
     background: none;
 
 }
@@ -180,7 +180,7 @@ section .title::after{
     bottom: -30px; 
     left: 50%;
     font-size: 20px;
-    color: crimson;
+    color: rgb(151, 0, 211);
     padding: 5px;
     background: #fff;
     transform: translateX(-50%)
@@ -223,7 +223,7 @@ section .title::after{
 }
 
 .about .about-content .right .text span{
-    color: crimson;
+    color: rgb(151, 0, 211);
 }    
 
 .about .about-content .right p{
@@ -231,18 +231,18 @@ text-align: justify;
 }
 .about .about-content .right a{
     display: inline-block;
-    background: crimson;
+    background: rgb(151, 0, 211);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
     padding: 10px 30px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(151, 0, 211);
     transform: color 0.3s ease;
     }
     .about .about-content .right a:hover{
-        color: crimson;
+        color: rgb(151, 0, 211);
         background: none;
     }   
 
@@ -255,7 +255,7 @@ text-align: justify;
     content: "";
     position: absolute;
     left: 50%;
-    width: 180px;
+    width: 200px;
     height: 3px;
     margin-top: 60px;
     background: rgb(255, 255, 255);
@@ -276,18 +276,19 @@ text-align: justify;
 }
 .services .serv-content .card{
     margin-top: 40px;
-    width: calc(35% - 20px);
+    width: calc(35% - 30px);
     background: #222;
     text-align: center;
     border-radius: 6px;
     padding: 20px 25px;
     cursor: pointer;
+   
     transition: color 0.3s ease;
 
 
 }
 .services .serv-content .card:hover{
-    background: crimson;
+    background: rgb(151, 0, 211);
 }
 
 .services .serv-content .card .box{
@@ -300,7 +301,7 @@ text-align: justify;
 
 .services .serv-content .card i{
     font-size: 50px;
-    color: crimson;
+    color: rgb(151, 0, 211);
     transition: color 0.3s ease;
 }
 .services .serv-content .card :hover i{
@@ -338,18 +339,18 @@ text-align: justify;
 .skills .skills-content .left a{
 
     display: inline-block;
-    background: crimson;
+    background: rgb(151, 0, 211);
     color: #fff;
     font-size: 18px;
     font-weight: 500;
     padding: 8px 20px;
     margin-top: 20px;
     border-radius: 6px;
-    border: 2px solid crimson;
+    border: 2px solid rgb(151, 0, 211);
     transition: color 0.3s ease;
 }
 .skills .skills-content .left a:hover {
-    color: crimson;
+    color: rgb(151, 0, 211);
     background: none;
 }
 .skills .skills-content .right .bars{
@@ -378,7 +379,7 @@ text-align: justify;
     
     left: 0;
     top: 0;
-    background: crimson;
+    background: rgb(151, 0, 211);
 
 }
 .skills .skills-content .right .cpp::before{
@@ -429,7 +430,7 @@ text-align: justify;
     transition: color 0.3s ease;
 }
 .teams .carousel .card:hover{
-    background: crimson;
+    background: rgb(151, 0, 211);
 } 
 .teams .carousel .card .box{
     display: flex;
@@ -452,7 +453,7 @@ text-align: justify;
     width: 150px;
     object-fit: cover;
     border-radius: 50%;
-    border: 5px solid crimson;
+    border: 5px solid rgb(151, 0, 211);
     transition: color 0.3s ease;
 }
 
@@ -470,7 +471,7 @@ text-align: justify;
     margin: 0px 5px;
     outline: none!important;
     border-radius: 50%;
-    border: 2px solid crimson!important ;
+    border: 2px solid rgb(151, 0, 211)!important ;
     transition: color 0.3s ease;
 }
 
@@ -480,14 +481,14 @@ text-align: justify;
 }
 .owl-dot.active,
 .owl-dot:hover{
-    background: crimson!important;
+    background: rgb(151, 0, 211)!important;
 }
 
 
 /* conmtact  */
 
 .contact .title::after{
-    content: "get in touch";
+    content: "Get in touch";
 }
 .contact .contact-content{
     margin-top: 100px;
@@ -520,7 +521,7 @@ text-align: justify;
 }
 .contact .contact-content .row i{
     font-size: 25px;
-    color: crimson;
+    color: rgb(151, 0, 211);
 }
 .contact .contact-content .row .info .head{
     font-weight: 500;
@@ -576,8 +577,8 @@ text-align: justify;
     width: 100%;
     height: 100%;
     border-radius: 6px;
-    border: 2px solid crimson;
-    background: crimson;
+    border: 2px solid rgb(151, 0, 211);
+    background: rgb(151, 0, 211);
     color: #fff;
     font-size: 20px;
     font-weight: 500;
@@ -585,7 +586,7 @@ text-align: justify;
     transition: color 0.3s ease;
 }
 .contact .right form .button-area button:hover{
-    color: crimson;
+    color: rgb(151, 0, 211);
     background: none;
 }
 
@@ -596,7 +597,7 @@ footer{
     text-align: center;
 }
 footer span a{
-    color: crimson;
+    color: rgb(151, 0, 211);
     text-decoration: none;
 }
 footer span a:hover{
